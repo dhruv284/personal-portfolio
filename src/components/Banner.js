@@ -6,7 +6,7 @@ import headerImg from '../assets/img/header-img.svg';
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+  const toRotate = ["AI & ML Developer", "Full Stack Web Developer", "Problem Solver (DSA)"];
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [text, setText] = useState('');
   const period = 2000;
@@ -53,8 +53,11 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
             <h1>{`Hi I'm Dhruv`} <span className="wrap">{text}</span></h1>
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, a odio quos laudantium ratione laborum sapiente quibusdam cum repellendus tenetur doloremque illum, inventore fuga labore suscipit rem corporis delectus reprehenderit. </p>
-            <button onClick={() => console.log('connect')}>
+            <p className="text-justify"> I am a dedicated developer specializing in AI & Machine Learning, full-stack web development, and advanced problem-solving using data structures and algorithms. I thrive on designing intelligent, scalable web applications and delivering efficient solutions to complex challenges. Passionate about learning and innovation, I continuously explore emerging technologies to build impactful projects that combine functionality, performance, and user experience. </p>
+            <button onClick={() => {
+              const contactSection = document.getElementById('connect');
+              contactSection.scrollIntoView({ behavior: 'smooth' });
+            }}>
               Let's Connect <ArrowRightCircle size={25} />
             </button>
           </Col>

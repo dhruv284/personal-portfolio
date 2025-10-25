@@ -27,29 +27,29 @@ export const Skills = () => {
     };
 
     return (
-        <section className="skill" id="skills">
+        <section className="skill skill1" id="skills" >
             <Container>
                 <Row>
                     <Col>
                         <div className="skill-bx">
                             <h2>
-                                skills
+                                Skills
                             </h2>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus autem dolore esse quam, nobis exercitationem reiciendis, facilis ipsa amet iusto vel quia in ea laborum nisi tenetur aliquid laboriosam velit?
+                            <p class="text-justify">
+                                Passionate full-stack developer skilled in crafting responsive, high-performance web applications. Experienced in designing scalable backend systems, developing intuitive user interfaces, and integrating AI/ML features for smarter solutions. Strong focus on clean architecture, maintainable code, and problem-solving efficiency.
                             </p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src={meter1} alt="Image"/>
-                                    <h5>Web Development</h5>
+                                    <h5>DSA</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter2} alt="Image"/>
-                                    <h5>Brand Identity</h5>
+                                    <h5>AI/ML</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter3} alt="Image"/>
-                                    <h5>Logo Design</h5>
+                                    <h5>Web Development</h5>
                                 </div>
                             </Carousel>
                         </div>
