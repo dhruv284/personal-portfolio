@@ -43,7 +43,7 @@ router.post("/contact", async (req, res) => {
 
   const name = `${firstName} ${lastName || ""}`;
   const mail = {
-    from: `${name} <${email}>`,        // Sender name and email
+    from: `${name} <${process.env.VERIFIED_EMAIL}>`,        // Sender name and email
     to: process.env.EMAIL_USER,        // Your email to receive messages
     subject: "Contact Form Submission - Portfolio",
     html: `
