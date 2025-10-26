@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
-const fetch = require("node-fetch"); // npm i node-fetch@2 for Node 18+
+ // npm i node-fetch@2 for Node 18+
 
 const app = express();
 const router = express.Router();
