@@ -6,7 +6,7 @@ import navIcon2 from '../assets/img/nav-icon2.svg'
 import navIcon3 from '../assets/img/nav-icon3.svg'
 import git from "../assets/img/git.svg"
 import git2 from '../assets/img/refinedgithub.svg'
-
+import programming from'../assets/img/developer.png'
 export const NavBar = ({ onNavClick }) => {
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
@@ -29,7 +29,7 @@ export const NavBar = ({ onNavClick }) => {
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
             <Container>
                 <Navbar.Brand href="#home">
-                    <img src={logo} alt="Logo"/>
+                    <img src={programming} alt="Logo"/>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className="navbar-toggler-icon"></span>
