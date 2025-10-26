@@ -1,9 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png"
-import  projImg1 from "../assets/img/project-img1.png"
-import  projImg2 from "../assets/img/project-img2.png"
-import  projImg3 from "../assets/img/project-img3.png"
+
 import leetcode from "../assets/img/leetcode.png"
 import gfg from '../assets/img/gfg.png'
 import codechef from "../assets/img/CodeChef_idFhzUjQZL_0.png"

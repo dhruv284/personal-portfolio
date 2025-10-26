@@ -1,10 +1,10 @@
 import { use, useEffect, useState } from "react"
 import {Navbar, Container, Nav} from "react-bootstrap"
-import logo from '../assets/img/logo.svg'
+
 import navIcon1 from '../assets/img/nav-icon1.svg'
-import navIcon2 from '../assets/img/nav-icon2.svg'
+
 import navIcon3 from '../assets/img/nav-icon3.svg'
-import git from "../assets/img/git.svg"
+
 import git2 from '../assets/img/refinedgithub.svg'
 import programming from'../assets/img/developer.png'
 export const NavBar = ({ onNavClick }) => {
@@ -54,6 +54,14 @@ export const NavBar = ({ onNavClick }) => {
                         >
                             Projects
                         </Nav.Link>
+                        <Nav.Link 
+                            href="https://drive.google.com/file/d/1dhcUL66duW2LcWFg7ECPwvBy_G2mG6gV/view?usp=sharing"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="navbar-link"
+                            >
+                            Download CV
+                            </Nav.Link>
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
