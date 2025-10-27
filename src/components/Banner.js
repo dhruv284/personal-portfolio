@@ -52,7 +52,7 @@ export const Banner = () => {
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
-            <h1>{`Hi I'm Dhruv`} <span className="wrap">{text}</span></h1>
+            <h1>{`Hi, I'm Dhruv -`} <span className="wrap">{text}</span></h1>
             <p className="text-justify"> I am a dedicated developer specializing in AI & Machine Learning, full-stack web development, and advanced problem-solving using data structures and algorithms. I thrive on designing intelligent, scalable web applications and delivering efficient solutions to complex challenges. Passionate about learning and innovation, I continuously explore emerging technologies to build impactful projects that combine functionality, performance, and user experience. </p>
             <button onClick={() => {
               const contactSection = document.getElementById('connect');
